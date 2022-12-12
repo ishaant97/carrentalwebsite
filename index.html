@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Website</title>
+    <link rel="stylesheet" href="ExternalCSS.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    
+    <header>
+        <a href="#home" class="logo"><img src="img/jeep.png" alt="JeepLogo"></a>
+
+        <ul class="navigationbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">Sign Up</a>
+            <a href="#" class="sign-in">Sign In</a>
+        </div>
+    </header>
+
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking</span> to <br>rent a car</h1>
+            <div class="app-stores">
+            </div>
+        </div>
+
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="" id="dataField" placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Pick-Up Date</span>
+                    <input type="date" name="" id="dataField">
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="" id="dataField">
+                </div>
+                <input type="submit" onclick="carDeliver()" value="Submit" class="btn">
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- Ride -->
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How It Works</span>
+            <h1>Rent With 3 Easy Steps</h1>
+        </div>
+        <div class="ride-container">
+            <div class="box">
+                <i class="bx bxs-map"></i>              
+                <h2>Choose A Location</h2>  
+                <p>Enter the <span>Location</span> you want your car to be delivered</p>
+            </div>
+            <div class="box">
+                <i class="bx bxs-calendar-check"></i>              
+                <h2>Pick-Up Date</h2>  
+                <p>Select a <span>Pick-up date</span> according to your comfort</p>
+            </div>
+            <div class="box">
+                <i class="bx bxs-calendar-star"></i>          
+                <h2>Book A Car</h2>  
+                <p>And finally <span>Book</span> your favourite car</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Best Services</span>
+            <h1>Explore Out Top Deals <br> From Top Rated Dealers</h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car1.jpg" alt="car1">
+                </div>
+                <p>2017</p>
+                <h3>Ferrari</h3>
+                <h2>₹ 5.75 crore | ₹ 9,131 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car2.png" alt="car2">
+                </div>
+                <p>2014</p>
+                <h3>Jaguar XF</h3>
+                <h2>₹ 71.60 Lakh | ₹ 5,814 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car3.png" alt="car3">
+                </div>
+                <p>2017</p>
+                <h3>Jeep Compass</h3>
+                <h2>₹ 32.67 Lakh | ₹ 4,858 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car4.png" alt="car4">
+                </div>
+                <p>2022</p>
+                <h3>BMW 3</h3>
+                <h2>₹ 48.70 Lakh | ₹ 4,331 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car5.jpg" alt="car5">
+                </div>
+                <p>2015</p>
+                <h3>Toyota Fortuner</h3>
+                <h2>₹ 32.58 Lakh | ₹ 4,264 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car6.jpg" alt="car6">
+                </div>
+                <p>2016</p>
+                <h3>Audi Q2</h3>
+                <h2>₹ 48.90 Lakh | ₹ 4,467 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car7.png" alt="car7">
+                </div>
+                <p>2021</p>
+                <h3>Mercedes-Benz EQS</h3>
+                <h2>₹ 1.55 crore | ₹ 5,156 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car8.png" alt="car8">
+                </div>
+                <p>2022</p>
+                <h3>Lamborghini Huracan</h3>
+                <h2>₹ 4.04 crore | ₹ 6,846 <span>/day</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Best Customer Experience</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/about.png" alt="about">
+            </div>
+            <div class="about-text">
+                 <span>About Us</span>
+                 <p>If you're looking for a convenient, affordable way to get around town or travel to a new destination, look no further than our car rental website. We offer a wide selection of vehicles to choose from, so you're sure to find the perfect one to fit your needs. Whether you're looking for a compact car for a weekend getaway or a larger SUV for a family vacation, we have you covered. Plus, we offer competitive rates and discounts to help you save even more.</p>
+                 <p>We provide high-quality car rental services to our customers. We have a wide range of cars to choose from, and our prices are competitive. We also offer a loyalty program to our customers.</p>
+                 <a href="aboutus.HTML" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>What Our Customer Says</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev1.jpg" alt="rev1">
+                </div>
+                <h2>Rahul</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                </div>
+                <p>I found the website to be user-friendly and the prices were very reasonable. The car I rented was in good condition and got me where I needed to go. I would definitely recommend this service to anyone looking for a hassle-free way to get around.</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev3.jpg" alt="rev1">
+                </div>
+                <h2>Neha</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                </div>
+                <p>This car rental website offers a great selection of vehicles at reasonable prices. However, the website is a bit confusing to navigate and can be challenging to understand. Additionally, it lacks a search feature for finding specific vehicles, making it challenging to find the right car for your needs. The site also does not offer any customer support or assistance. All in all, this rental car website needs some serious improvements in order to make it easier for customers to find and book the right car.</p>
+            </div>
+
+            <div class="box">
+                <div class="rev-img">
+                    <img src="img/rev2.jpg" alt="rev1">
+                </div>
+                <h2>John</h2>
+                <div class="stars">
+                    <i class="bx bxs-star"></i>
+                    <i class="bx bxs-star-half"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                    <i class="bx bx-star"></i>
+                </div>
+                <p>The website is user-friendly and easy to navigate. However, the prices are not competitive and the selection of cars is not good. I would not recommend this website to anyone looking for a car rental.</p><br><br><br><br><br>
+                <pre>                                                                  <a href="reviews.html" class="btn">More Reviews</a></pre>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Subscription -->
+    <section class="updates">
+        <h2>Subscribe For Updates</h2>
+        <div class="box">
+            <input type="email" placeholder="Enter Your Email...">
+            <a href="#" onclick="updates()" class="btn">Subscribe</a>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&#169; All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#" target="_blank6"><i class="bx bxl-twitter"></i></a>
+            <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+
+<!-- Link to JS -->
+<script src="JavaScriptFile.js"></script>
+    
+</body>
+</html>

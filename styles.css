@@ -1,0 +1,71 @@
+.heading2{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration:solid;
+}
+span,h1{
+    color: rgb(0, 255, 47);
+}
+h2,h3{
+    background: rgb(255, 55, 0);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 4px;
+    margin: 1px;
+}
+.cab{
+    color: rgb(240, 243, 245);
+    font-family: Montserrat;
+}
+.cab:hover{
+    background: rgba(8, 117, 213, 0.4);
+    border-radius: 10px;
+    display: block;
+    transition: 0.5s;
+    
+}
+.cab ul{
+    list-style: none;
+}
+.cab ul li{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.light{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.bold{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-container{
+    font-family:cursive;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.about-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.about-text span {
+    font-weight: 500;
+    font-style: italic;
+    color: orangered;
+    text-transform: uppercase;
+}
+.about-text p{
+    text-align: justify;
+    margin: 0.5rem 0 1.4rem;
+}
